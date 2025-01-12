@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101032
+  controlID: 2360
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -193,10 +193,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 167}
-      m_SelectedIDs: 24980000
-      m_LastClickedID: 38948
-      m_ExpandedIDs: b437fbff607ffbff647ffbffa8cbfbffaee4fbffb2e4fbff02fbfbff08fbfbfff41ffcff2e25fcff4c65fcff16c0fcff36ccfcff8e74fdffa897fdff2a68feff86e2feffe417ffffc025ffff6294ffff68efffff74efffffc6efffff6ef1ffff7cf3ffffbef7ffffd6f7ffff6ef8ffff80f9ffffdefaffffda9400003e9600009296000000970000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 26f6ffff
+      m_LastClickedID: -2522
+      m_ExpandedIDs: defaffff6893000026940000b8940000389700007297000032980000c4980000fe98000096990000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 100985
+  controlID: 2320
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -784,9 +784,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.8784676, y: 18.23621, z: -0.84687084}
+    m_Target: {x: 1.2365936, y: 14.789631, z: -2.3427494}
     speed: 2
-    m_Value: {x: 1.8784676, y: 18.23621, z: -0.84687084}
+    m_Value: {x: 1.2365936, y: 14.789631, z: -2.3427494}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -832,13 +832,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16604358, y: -0.13042863, z: 0.01891202, w: -0.978927}
+    m_Target: {x: 0.33330777, y: -0.65279216, z: 0.38995796, w: 0.560615}
     speed: 2
-    m_Value: {x: -0.16479816, y: -0.1302369, z: 0.018750427, w: -0.9775112}
+    m_Value: {x: -0.33330777, y: 0.6527922, z: -0.38995796, w: -0.560615}
   m_Size:
-    m_Target: 3.158986
+    m_Target: 5.357266
     speed: 2
-    m_Value: 3.158986
+    m_Value: 5.357266
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -943,7 +943,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Material
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -953,16 +953,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Material
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\repositories github\LD_EX_janvier\examen GD janvier 2024-2025
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8aa30000
-    m_LastClickedID: 41866
-    m_ExpandedIDs: ffffffff0000000068a0000000ca9a3b
+    m_SelectedIDs: f8a40000
+    m_LastClickedID: 42232
+    m_ExpandedIDs: 0000000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -991,7 +991,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 101.33331}
     m_SelectedIDs: e2920000
     m_LastClickedID: 37602
-    m_ExpandedIDs: ffffffff0000000000ca9a3b
+    m_ExpandedIDs: 0000000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1017,8 +1017,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 24980000
-    m_LastClickedInstanceID: 38948
+    m_SelectedInstanceIDs: 26f6ffff
+    m_LastClickedInstanceID: -2522
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -1045,7 +1045,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 18.333313}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 405.33337
