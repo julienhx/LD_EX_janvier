@@ -1,0 +1,641 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1736700259164382, "dur":38601, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700259202989, "dur":111, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700259203143, "dur":805, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700259205406, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1736700259205609, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1736700259203967, "dur":2828, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700259206796, "dur":9488800, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700268695600, "dur":291, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700268695892, "dur":79, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700268695971, "dur":90, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700268696353, "dur":1695, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1736700259204115, "dur":2739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736700259206856, "dur":817, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736700259207673, "dur":1412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736700259209086, "dur":8003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736700259217099, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1736700259217310, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736700259217420, "dur":7390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736700259224906, "dur":109840, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259224814, "dur":109933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259334754, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259336298, "dur":69498, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259336275, "dur":69522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259405805, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259406738, "dur":69725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259406715, "dur":69749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259476475, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259477618, "dur":57156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259477586, "dur":57190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259534791, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259536044, "dur":113434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259536019, "dur":113461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259649497, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736700259650833, "dur":9044778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736700259203986, "dur":2834, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736700259206823, "dur":2054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736700259208877, "dur":8305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736700259217183, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259217246, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736700259217387, "dur":7316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736700259224785, "dur":68156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259224704, "dur":68239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259292955, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259295360, "dur":76219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259295335, "dur":76246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259371590, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259372600, "dur":201732, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259372577, "dur":201757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259574366, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259576018, "dur":68494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259575992, "dur":68521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259644523, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736700259645808, "dur":9049808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736700259205184, "dur":2292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736700259207479, "dur":1508, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736700259208988, "dur":8105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736700259217098, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1736700259217246, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736700259217405, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1736700259217462, "dur":7361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736700259224877, "dur":56533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259224824, "dur":56588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259281422, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259283724, "dur":53778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259283695, "dur":53808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259337518, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259339171, "dur":31630, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259339139, "dur":31664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259370836, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259372338, "dur":159335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259372312, "dur":159363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259531688, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259532898, "dur":95126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259532864, "dur":95162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259628038, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736700259629596, "dur":9066027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736700259203768, "dur":3035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736700259209482, "dur":700, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.17f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":4, "ts":1736700259210183, "dur":5212, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.17f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":4, "ts":1736700259215396, "dur":95, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":4, "ts":1736700259215492, "dur":1115, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":4, "ts":1736700259216607, "dur":85, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":4, "ts":1736700259216692, "dur":166, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.17f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":4, "ts":1736700259216858, "dur":130, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":4, "ts":1736700259206806, "dur":10276, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736700259217202, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/repositories github/LD_EX_janvier/examen GD janvier 2024-2025/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":4, "ts":1736700259218032, "dur":2264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736700259224767, "dur":44633, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736700259269475, "dur":547204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736700259816809, "dur":119198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\repositories github\\LD_EX_janvier\\examen GD janvier 2024-2025\\Library\\PackageCache\\com.unity.burst\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":4, "ts":1736700259224703, "dur":711306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1736700259937497, "dur":8757914, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":5, "ts":1736700259204165, "dur":2714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736700259207479, "dur":518, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.DispatchProxy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259206892, "dur":2094, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736700259208986, "dur":8255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736700259217250, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736700259217434, "dur":7479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736700259224981, "dur":30922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259224914, "dur":30991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259256384, "dur":4778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259261212, "dur":119308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259261164, "dur":119358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259380533, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259382262, "dur":93452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259382236, "dur":93481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259475727, "dur":76, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736700259475806, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259477725, "dur":36422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259477693, "dur":36456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259514164, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259516266, "dur":25632, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259516240, "dur":25660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259541916, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259543314, "dur":99145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259543286, "dur":99176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259642480, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736700259644138, "dur":9051483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259204097, "dur":2744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259206852, "dur":1280, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259208133, "dur":1485, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259209619, "dur":7490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259217113, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1736700259217258, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259217442, "dur":7348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736700259225085, "dur":433430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736700259224834, "dur":433683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736700259658541, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736700259659894, "dur":9035712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736700259204721, "dur":2414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736700259207449, "dur":532, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\msquic.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259207137, "dur":1946, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736700259209083, "dur":8153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736700259217240, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736700259217423, "dur":7363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736700259224879, "dur":59643, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259224787, "dur":59736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259284535, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259286735, "dur":42283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259286706, "dur":42314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259329028, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259330105, "dur":24381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259330078, "dur":24410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259354506, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259355640, "dur":62978, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259355613, "dur":63006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259418658, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259419849, "dur":180131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259419818, "dur":180163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259599997, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736700259601220, "dur":9094372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259204144, "dur":2714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259207467, "dur":791, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259206862, "dur":1890, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259208753, "dur":587, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259209340, "dur":7778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259217122, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1736700259217308, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259217426, "dur":7459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736700259225089, "dur":50139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259224886, "dur":50344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259275242, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259276639, "dur":34725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259276612, "dur":34753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259311376, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259312322, "dur":14476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259312299, "dur":14501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259326814, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259328431, "dur":24772, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259328408, "dur":24797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259353227, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259354688, "dur":132249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259354650, "dur":132288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259486953, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259488475, "dur":46951, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259488448, "dur":46980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259535438, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259536553, "dur":33032, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259536530, "dur":33056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259569596, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259570540, "dur":55790, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259570516, "dur":55816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259626378, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736700259628036, "dur":9067563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736700259204340, "dur":2572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736700259207344, "dur":644, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Requests.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259206934, "dur":2177, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736700259209111, "dur":8003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736700259217115, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1736700259217260, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736700259217332, "dur":7391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736700259224872, "dur":107618, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259224738, "dur":107753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259332501, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259334686, "dur":67211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259334654, "dur":67244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259401913, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259403159, "dur":83488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259403135, "dur":83514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259486667, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259488579, "dur":31132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259488555, "dur":31158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259519728, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259521088, "dur":38153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259520989, "dur":38254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259559260, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259560555, "dur":115243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259560530, "dur":115270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259675820, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736700259677080, "dur":9018544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736700259204480, "dur":2470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736700259207675, "dur":531, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.DriveInfo.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736700259206976, "dur":2159, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736700259209135, "dur":8124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736700259217272, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736700259217380, "dur":7518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736700259224975, "dur":516969, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736700259224899, "dur":517047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736700259741966, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736700259743413, "dur":8952204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736700259204514, "dur":2527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736700259207691, "dur":501, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Process.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259207047, "dur":1763, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736700259208810, "dur":8444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736700259217267, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736700259217356, "dur":7349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736700259224878, "dur":83801, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259224709, "dur":83972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259308694, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259310640, "dur":56842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259310614, "dur":56870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259367502, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259369088, "dur":26922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259369060, "dur":26951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259396020, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259397054, "dur":245467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259397032, "dur":245491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259642589, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736700259644374, "dur":9051236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259204700, "dur":2428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259207131, "dur":1855, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259208987, "dur":8135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259217122, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1736700259217249, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259217323, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259217451, "dur":7330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736700259225046, "dur":475202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736700259224795, "dur":475456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736700259700297, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736700259701736, "dur":8993886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736700259204741, "dur":2434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736700259207177, "dur":2217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736700259209394, "dur":7703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736700259217101, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1736700259217321, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736700259217396, "dur":7361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736700259224869, "dur":453069, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736700259224759, "dur":453181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736700259677955, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736700259679742, "dur":9015875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259204780, "dur":2417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259207198, "dur":1868, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259209067, "dur":8065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259217133, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1736700259217240, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259217318, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259217390, "dur":7520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736700259224987, "dur":44328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259224911, "dur":44406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259269339, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259270883, "dur":930, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259270853, "dur":962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259271861, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259273368, "dur":139227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259273334, "dur":139262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259412604, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259413462, "dur":73484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259413441, "dur":73506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259486957, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259488373, "dur":36661, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259488340, "dur":36696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259525080, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259526313, "dur":70648, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259526288, "dur":70675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259596975, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736700259598220, "dur":9097380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736700259204928, "dur":2497, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736700259207809, "dur":622, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259207430, "dur":2018, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736700259209449, "dur":7686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736700259217136, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1736700259217383, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736700259217468, "dur":7286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736700259224859, "dur":30522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259224755, "dur":30628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259256671, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259261368, "dur":21319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259261332, "dur":21358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259282704, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259283903, "dur":186114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259283875, "dur":186144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259470031, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259471421, "dur":192168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259471396, "dur":192195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259663604, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736700259665242, "dur":9030370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259204798, "dur":2431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259207402, "dur":518, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Android.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259207231, "dur":2332, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259209563, "dur":7543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259217107, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1736700259217207, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259217298, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259217386, "dur":7508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736700259225005, "dur":30084, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259224894, "dur":30198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259256362, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259260940, "dur":26352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259260893, "dur":26401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259287305, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259289114, "dur":90536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259289083, "dur":90569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259379665, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259381231, "dur":257493, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259381203, "dur":257523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259638746, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736700259640586, "dur":9055074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736700259204820, "dur":2436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736700259207258, "dur":2077, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736700259209336, "dur":7814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736700259217151, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736700259217273, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736700259217351, "dur":7508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736700259224936, "dur":467314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736700259224860, "dur":467392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736700259692273, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736700259693893, "dur":9001732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736700259204841, "dur":2452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736700259207296, "dur":1678, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736700259208975, "dur":8194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736700259217170, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259217341, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736700259217422, "dur":7334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736700259224849, "dur":159740, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259224757, "dur":159834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259384607, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259385829, "dur":24993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259385803, "dur":25022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259410840, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259412387, "dur":310764, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259412362, "dur":310791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259723172, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736700259724528, "dur":8971060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259204860, "dur":2468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259207329, "dur":581, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259207910, "dur":1517, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259209427, "dur":7675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259217104, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1736700259217293, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259217468, "dur":7283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736700259225100, "dur":108268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259224756, "dur":108613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259333403, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259335844, "dur":52882, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259335820, "dur":52907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259388743, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259389843, "dur":21455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259389818, "dur":21482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259411311, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259412589, "dur":213854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259412565, "dur":213879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259626456, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736700259627977, "dur":9067620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736700259204883, "dur":2482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736700259207366, "dur":1640, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736700259209006, "dur":8155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736700259217161, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":20, "ts":1736700259217233, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736700259217362, "dur":7382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736700259224934, "dur":481301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736700259224745, "dur":481493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736700259706255, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736700259708568, "dur":8987051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736700259204904, "dur":2471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736700259207515, "dur":824, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Web.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259207376, "dur":2229, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736700259209605, "dur":7533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736700259217139, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":21, "ts":1736700259217452, "dur":7315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736700259224983, "dur":59660, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259224770, "dur":59875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259284657, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259286435, "dur":63329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259286408, "dur":63357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259349786, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259350990, "dur":44905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259350964, "dur":44934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259395914, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259396918, "dur":300139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259396893, "dur":300166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259697079, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736700259699834, "dur":8995793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736700259203880, "dur":2930, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736700259206817, "dur":649, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736700259207466, "dur":1839, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736700259209306, "dur":7841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736700259217148, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736700259217392, "dur":7356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736700259225051, "dur":443384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736700259224750, "dur":443688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736700259668458, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736700259669921, "dur":9025692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259204952, "dur":2479, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259207434, "dur":738, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259207434, "dur":2048, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259209483, "dur":7621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259217105, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":23, "ts":1736700259217207, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259217291, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259217448, "dur":7355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736700259224893, "dur":56268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259224804, "dur":56359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259281184, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259283733, "dur":48327, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259283699, "dur":48362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259332073, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259334544, "dur":33239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259334519, "dur":33266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259367802, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259369332, "dur":128277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259369298, "dur":128313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259497625, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259498922, "dur":29942, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259498894, "dur":29972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259528880, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259530769, "dur":25126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259530741, "dur":25156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259555919, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259557159, "dur":31769, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259557133, "dur":31797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259588948, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259590719, "dur":37223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259590696, "dur":37248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259627958, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736700259629382, "dur":9066227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736700259204974, "dur":2461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736700259207437, "dur":1924, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736700259209361, "dur":7834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736700259217195, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":24, "ts":1736700259217270, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736700259217378, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles test build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":24, "ts":1736700259217476, "dur":7308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736700259224870, "dur":49867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259224785, "dur":49953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259274755, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259276158, "dur":27029, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259276130, "dur":27059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259303203, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259305168, "dur":69680, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259305144, "dur":69705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259374862, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259376254, "dur":26922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259376218, "dur":26959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259403186, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259404197, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259405099, "dur":141825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259405077, "dur":141849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259546942, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259548771, "dur":31799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259548745, "dur":31826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259580585, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259581683, "dur":74723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259581660, "dur":74749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259656427, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736700259658743, "dur":9036871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259204991, "dur":2447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259207440, "dur":1685, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259209125, "dur":7962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259217111, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259217202, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259217327, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259217429, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":25, "ts":1736700259217481, "dur":7238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1736700259224992, "dur":100693, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259224723, "dur":100965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259325707, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259328099, "dur":36601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259328074, "dur":36628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259364716, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259365845, "dur":18385, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259365818, "dur":18413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259384312, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259385504, "dur":39130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259385477, "dur":39160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259424663, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259426106, "dur":142230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259426081, "dur":142256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259568350, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259569485, "dur":23839, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259569459, "dur":23867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259593341, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1736700259594441, "dur":9101161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1736700259205200, "dur":2281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1736700259207485, "dur":1698, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1736700259209184, "dur":7910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1736700259217099, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":26, "ts":1736700259217478, "dur":7234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1736700259224865, "dur":104526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259224716, "dur":104677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259329402, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259331152, "dur":686, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259331129, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259331849, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259334470, "dur":60266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259334444, "dur":60294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259394762, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259396581, "dur":303685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259396558, "dur":303709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259700300, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":26, "ts":1736700259703012, "dur":8992603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1736700259205232, "dur":2255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1736700259207491, "dur":2102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1736700259209594, "dur":7540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1736700259217135, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":27, "ts":1736700259217286, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1736700259217347, "dur":7423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1736700259224991, "dur":462176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":27, "ts":1736700259224772, "dur":462397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":27, "ts":1736700259687189, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":27, "ts":1736700259688353, "dur":9007251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1736700259205273, "dur":2219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1736700259207699, "dur":533, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Net.Sockets.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259207494, "dur":1623, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1736700259209117, "dur":7974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1736700259217099, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":28, "ts":1736700259217284, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1736700259217343, "dur":7431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1736700259224860, "dur":145388, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259224781, "dur":145469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259370263, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259371641, "dur":79602, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259371613, "dur":79632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259451260, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259452745, "dur":37929, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259452722, "dur":37953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259490689, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259492295, "dur":50842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259492262, "dur":50877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259543151, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259544345, "dur":22897, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259544319, "dur":22925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259567259, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259568720, "dur":238551, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259568695, "dur":238578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259807292, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":28, "ts":1736700259809819, "dur":8885788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1736700259205292, "dur":2245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1736700259207539, "dur":1636, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1736700259209176, "dur":7909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1736700259217134, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1736700259217295, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":29, "ts":1736700259217897, "dur":6849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1736700259224854, "dur":151182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259224749, "dur":151289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259376050, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259377138, "dur":42613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259377113, "dur":42640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259419764, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259420755, "dur":44423, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259420733, "dur":44447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259465190, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259466319, "dur":350361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259466318, "dur":350364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259816750, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":29, "ts":1736700259819221, "dur":8876386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1736700259205313, "dur":2228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1736700259207716, "dur":684, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Diagnostics.StackTrace.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259207544, "dur":2134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1736700259209678, "dur":7481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1736700259217162, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1.exe" }}
+,{ "pid":12345, "tid":30, "ts":1736700259217363, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1736700259217446, "dur":7293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1736700259224849, "dur":30723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259224743, "dur":30831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259256880, "dur":4486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259261405, "dur":30703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259261367, "dur":30743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259292125, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259293957, "dur":68786, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259293926, "dur":68818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259362756, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259364144, "dur":104678, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259364084, "dur":104740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259468840, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259470187, "dur":191477, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259470162, "dur":191504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259661681, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":30, "ts":1736700259663033, "dur":9032561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1736700259205332, "dur":2214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1736700259207548, "dur":615, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Buffers.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259207547, "dur":2034, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1736700259209581, "dur":7556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1736700259217138, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":31, "ts":1736700259217310, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1736700259217374, "dur":7335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1736700259224842, "dur":136032, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259224710, "dur":136167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259360902, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259362656, "dur":101820, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259362627, "dur":101851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259464493, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259465935, "dur":243804, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259465910, "dur":243831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259709757, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":31, "ts":1736700259711658, "dur":8983962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259205352, "dur":2196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259207549, "dur":1106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259208656, "dur":995, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259209651, "dur":7473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259217126, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":32, "ts":1736700259217256, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259217398, "dur":7309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1736700259224821, "dur":214215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259224709, "dur":214329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259439053, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259440317, "dur":35588, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259440292, "dur":35614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259475915, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259477502, "dur":23996, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259477465, "dur":24034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259501513, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259502781, "dur":71124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259502753, "dur":71154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259573921, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259576121, "dur":51748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259576098, "dur":51773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles test build/cours de blanch 1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259627884, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"test build/cours de blanch 1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1736700259629888, "dur":9065702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736700268700354, "dur":948, "ph":"X", "name": "ProfilerWriteOutput" }
+,
